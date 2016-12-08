@@ -1,0 +1,69 @@
+[21.020412445] 2016-12-08 16:36:07,417 - INFO - launcher: Starting sanity checks
+[21.020412445] 2016-12-08 16:36:07,417 - INFO - launcher: Checking for python 3.5+
+[21.520376205] 2016-12-08 16:36:07,418 - INFO - launcher: Checking console encoding
+[21.520376205] 2016-12-08 16:36:07,418 - INFO - launcher: Setting console encoding to UTF-8
+[21.520376205] 2016-12-08 16:36:07,418 - INFO - launcher: Ensuring we're in the right folder
+[312.799930573] 2016-12-08 16:36:07,709 - INFO - launcher: Adding local bins/ folder to path
+[313.300609589] 2016-12-08 16:36:07,709 - INFO - launcher: Checks passed.
+[313.801050186] 2016-12-08 16:36:07,710 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.0965521335601807] 2016-12-08 16:36:08,493 - DEBUG - musicbot.bot | In bot.py::MainThread(5824), line 200 in _setup_logging: Set logging level to INFO
+[1.0970520973205566] 2016-12-08 16:36:08,493 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 77 in __init__: Loaded autoplaylist with 2531 entries
+[1.098053217] launcher-INFO: Connecting
+[3.9247646331787109] 2016-12-08 16:36:11,321 - DEBUG - musicbot.bot | In bot.py::MainThread(5824), line 990 in on_ready: Connection established, ready to go.
+[3.9247646331787109] 2016-12-08 16:36:11,321 - DEBUG - musicbot.bot | In bot.py::MainThread(5824), line 311 in _cache_app_info: Caching app info
+[4.0593941211700439] 2016-12-08 16:36:11,455 - DEBUG - musicbot.bot | In bot.py::MainThread(5824), line 807 in _scheck_ensure_env: Ensuring data folders exist
+[4.0618965625762939] 2016-12-08 16:36:11,458 - DEBUG - musicbot.bot | In bot.py::MainThread(5824), line 823 in _scheck_server_permissions: Checking server permissions
+[4.0618965625762939] 2016-12-08 16:36:11,458 - DEBUG - musicbot.bot | In bot.py::MainThread(5824), line 827 in _scheck_autoplaylist: Auditing autoplaylist
+[4.0618965625762939] 2016-12-08 16:36:11,458 - DEBUG - musicbot.bot | In bot.py::MainThread(5824), line 831 in _scheck_configs: Validating config
+[4.0623974800109863] 2016-12-08 16:36:11,458 - DEBUG - musicbot.config | In config.py::MainThread(5824), line 175 in async_validate: Validating options...
+[4.0623974800109863] 2016-12-08 16:36:11,458 - DEBUG - musicbot.bot | In bot.py::MainThread(5824), line 834 in _scheck_configs: Validating permissions config
+[4.0623974800109863] 2016-12-08 16:36:11,458 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5824), line 59 in async_validate: Validating permissions...
+[4.0623974800109863] 2016-12-08 16:36:11,458 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1001 in on_ready: Connected!  Musicbot v1.9.6-review
+
+[4.0628976821899414] 2016-12-08 16:36:11,459 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1011 in on_ready: Bot:   246361435951595520/Music Bot#3535 [BOT]
+[4.0628976821899414] 2016-12-08 16:36:11,459 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1019 in on_ready: Owner: 246343405603520513/KEKBOY2000#9105
+
+[4.0628976821899414] 2016-12-08 16:36:11,459 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1022 in on_ready: Server List:
+[4.0633981227874756] 2016-12-08 16:36:11,459 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1023 in <listcomp>:  - Weihnachten Mit Dennie Christiaans Now With Discord and Crackers
+[4.0633981227874756] 2016-12-08 16:36:11,459 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1054 in on_ready: Bound to text channels:
+[4.0633981227874756] 2016-12-08 16:36:11,459 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1055 in <listcomp>:  - Weihnachten Mit Dennie Christiaans Now With Discord and Crackers/general
+[4.0638985633850098] 2016-12-08 16:36:11,460 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1055 in <listcomp>:  - Weihnachten Mit Dennie Christiaans Now With Discord and Crackers/music_channel
+[4.0638985633850098] 2016-12-08 16:36:11,460 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1093 in on_ready: Not autojoining any voice channels
+[4.0638985633850098] 2016-12-08 16:36:11,460 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1097 in on_ready: Options:
+[4.0643990039825439] 2016-12-08 16:36:11,460 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1099 in on_ready:   Command prefix: %
+[4.0643990039825439] 2016-12-08 16:36:11,460 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1100 in on_ready:   Default volume: 25%
+[4.0643990039825439] 2016-12-08 16:36:11,460 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1102 in on_ready:   Skip threshold: 5 votes or 60%
+[4.0648996829986572] 2016-12-08 16:36:11,461 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1103 in on_ready:   Now Playing @mentions: Enabled
+[4.0648996829986572] 2016-12-08 16:36:11,461 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1104 in on_ready:   Auto-Summon: Enabled
+[4.0654001235961914] 2016-12-08 16:36:11,461 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1105 in on_ready:   Auto-Playlist: Enabled
+[4.0654001235961914] 2016-12-08 16:36:11,461 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1106 in on_ready:   Auto-Pause: Enabled
+[4.0654001235961914] 2016-12-08 16:36:11,461 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1107 in on_ready:   Delete Messages: Enabled
+[4.0659005641937256] 2016-12-08 16:36:11,462 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1109 in on_ready:     Delete Invoking: Disabled
+[4.0659005641937256] 2016-12-08 16:36:11,462 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1110 in on_ready:   Debug Mode: Disabled
+[4.0664010047912598] 2016-12-08 16:36:11,462 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 1111 in on_ready:   Downloaded songs will be saved
+[4.0664010047912598] 2016-12-08 16:36:11,462 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 245 in _join_startup_channels: Found owner in "Weihnachten mit Dennie Christiaans"
+[4.0669012069702148] 2016-12-08 16:36:11,463 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 254 in _join_startup_channels: Attempting to join Weihnachten Mit Dennie Christiaans Now With Discord and Crackers/Weihnachten mit Dennie Christiaans
+[4.0674014091491699] 2016-12-08 16:36:11,463 - DEBUG - musicbot.bot | In bot.py::MainThread(5824), line 424 in get_voice_client: Connection attempt 1 to Weihnachten mit Dennie Christiaans
+[4.0674014091491699] 2016-12-08 16:36:11,463 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5824), line 363 in join_voice_channel: (join_voice_channel) creating futures
+[4.0674014091491699] 2016-12-08 16:36:11,463 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5824), line 369 in join_voice_channel: (join_voice_channel) setting voice state
+[4.0679023265838623] 2016-12-08 16:36:11,464 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5824), line 372 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.1865158081054688] 2016-12-08 16:36:11,583 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5824), line 2579 in on_voice_state_update: Voice state update for 246361435951595520/Music Bot#3535 on Weihnachten Mit Dennie Christiaans Now With Discord and Crackers/Weihnachten mit Dennie Christiaans -> [JOIN, CONNECT]
+[4.1870167255401611] 2016-12-08 16:36:11,583 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 2590 in on_voice_state_update: 246361435951595520/Music Bot#3535 has joined Weihnachten Mit Dennie Christiaans Now With Discord and Crackers/Weihnachten mit Dennie Christiaans
+[4.1880176067352295] 2016-12-08 16:36:11,584 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5824), line 376 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.4102306365966797] 2016-12-08 16:36:11,806 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5824), line 390 in join_voice_channel: (join_voice_channel) connecting...
+[4.6039161682128906] 2016-12-08 16:36:12,000 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5824), line 402 in join_voice_channel: (join_voice_channel) connection successful
+[4.6044170856475830] 2016-12-08 16:36:12,000 - DEBUG - musicbot.bot | In bot.py::MainThread(5824), line 450 in get_voice_client: Connected in 0.5s
+[4.6044170856475830] 2016-12-08 16:36:12,000 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 451 in get_voice_client: Connected to Weihnachten Mit Dennie Christiaans Now With Discord and Crackers/Weihnachten mit Dennie Christiaans
+[4.6054182052612305] 2016-12-08 16:36:12,001 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 270 in _join_startup_channels: Joined Weihnachten Mit Dennie Christiaans Now With Discord and Crackers/Weihnachten mit Dennie Christiaans
+[4.6179301738739014] 2016-12-08 16:36:12,014 - VOICEDEBUG - musicbot.player | In player.py::MainThread(5824), line 313 in websocket_check: Starting websocket check loop for Weihnachten Mit Dennie Christiaans Now With Discord and Crackers
+[6.1709196567535400] 2016-12-08 16:36:13,567 - INFO - musicbot.entry | In entry.py::MainThread(5824), line 219 in _really_download: Download started: https://youtube.com/watch?v=Jv5j_Lx2R4g
+[7.8745563030242920] 2016-12-08 16:36:15,271 - INFO - musicbot.entry | In entry.py::MainThread(5824), line 226 in _really_download: Download complete: https://youtube.com/watch?v=Jv5j_Lx2R4g
+[8.1733424663543701] 2016-12-08 16:36:15,569 - FFMPEG - musicbot.player | In player.py::MainThread(5824), line 270 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Jv5j_Lx2R4g-John_Coltrane_-_Mr._P.C..webm
+[8.6793282032012939] 2016-12-08 16:36:16,075 - DEBUG - musicbot.bot | In bot.py::MainThread(5824), line 760 in serialize_queue: Serializing queue for 246343820726239232
+[24.6191217899322510] 2016-12-08 16:36:32,015 - INFO - musicbot.bot | In bot.py::MainThread(5824), line 2410 in on_message: 246343405603520513/KEKBOY2000#9105: %play thunder6 - ohyeah
+[27.8982677459716797] 2016-12-08 16:36:35,294 - DEBUG - musicbot.bot | In bot.py::MainThread(5824), line 760 in serialize_queue: Serializing queue for 246343820726239232
+[27.9017713069915771] 2016-12-08 16:36:35,298 - INFO - musicbot.entry | In entry.py::MainThread(5824), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=9lwSYlU4gHQ
+[29.1429619789123535] 2016-12-08 16:36:36,539 - INFO - musicbot.entry | In entry.py::MainThread(5824), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=9lwSYlU4gHQ
